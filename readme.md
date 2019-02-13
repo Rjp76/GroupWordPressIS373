@@ -10,4 +10,5 @@ Install Programs
 -install php, mysql 
 -older version of security 
 -use "password" instead 
+
 phpstorm - connect with git
