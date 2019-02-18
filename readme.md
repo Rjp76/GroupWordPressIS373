@@ -50,6 +50,16 @@ https://www.mysql.com/downloads/
     a) Check Run PhpStorm and Finish 
 9. Sign into PhpStorm with student license information 
 
+--Download Wordpress--
+1. https://wordpress.org/download/ 
+2. Extract download into phpstorm
+3. Open file in phpstorm
+4. Find wp-config-sample.php
+5. Copy and paste into the same folder with new name wp-config.php
+    a) If wp-config-sample.php was opened, close it
+6. Go into view > tool windows > database
+7. On the right hand side, a [Window] will appear. Click the little plus
+8. In the drop down, select Data Source 
 
 
 -----Git Collaborations-----
