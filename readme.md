@@ -55,11 +55,37 @@ https://www.mysql.com/downloads/
 2. Extract download into phpstorm
 3. Open file in phpstorm
 4. Find wp-config-sample.php
-5. Copy and paste into the same folder with new name wp-config.php
-    a) If wp-config-sample.php was opened, close it
+5. Copy and paste into the same folder with new name wp-config.php <br>
+    5. If wp-config-sample.php was opened, close it
 6. Go into view > tool windows > database
 7. On the right hand side, a [Window] will appear. Click the little plus
-8. In the drop down, select Data Source 
+8. In the drop down, select Data Source > MySQL
+9. The console (labeled localhost with a dolphin icon) paste in the following commands 
+    9. CREATE DATABASE wordpress;
+    9. CREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'password';
+    9. GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@'localhost';
+    9. FLUSH PRIVILEGES;
+        9. Note that wordpress, wordpressuser and password can be whatever you want it to be (within constraints). Password is recommended to remain password 
+10. Go into wp-config.php and change the following
+    9. Database_name_here to ‘wordpress
+    9. Username_here to ‘wordperssuser’
+    9. Password_here to ‘password’
+11. Save
+12. Go to the top menu bar and go to Run>Edit Configurations 
+    9. Click the plus and select PHP Built-in Web Server 
+    9. Change the root to the file holding the wp-config inside 
+    9. An error message will pop up at the bottom, click ‘Fix’
+    9. Find your php executable and click it, and apply and ok
+    9. Change localhost port to 8080 
+    9. OPTIONAL Give it a name
+    9. Hit ok
+13. Go into Run and hit the green arrow / Run
+14. Select the option clicked ‘untitled’ or whatever you named the configurations 
+15. Go into your web browser and go to localhost:8080
+    9. Pick a language 
+16. Register 
+    9. Pick any username you want but password should be password
+17. Congratulations!
 
 
 -----Git Collaborations-----
