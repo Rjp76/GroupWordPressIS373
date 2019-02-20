@@ -87,15 +87,55 @@ https://www.mysql.com/downloads/
     9. Pick any username you want but password should be password
 17. Congratulations!
 
+<b><u>Git Collaboration</u></b>
 
------Git Collaborations-----
--create github account-
+Create github account 
+<br> 1. Sign up for github by following the instructions 
 
--download GIT-
+Download GIT
+https://git-scm.com/downloads
+Run application 
+Accept license and continue 
+Destination location of program 
+Verify components and click next
+Adjusting your path environment 
+Select use git from git bash only or use git from windows command prompt
+Click next until install page. Install the program and wait for loading to finish 
+Completing the GIT setup wizard
+Choose for desktop shortcut and finish setup
 
--Configure GIT to PhpStorm
+Attach Github to PhpStorm
+Go into File > Settings
+In the pop up, go to Version Control > GitHub
+Host should be github.com
+Login is github username
+Password is github password
+Test
 
------Common Errors-----
--php.ini-
--uncomment extensions sqli-
--
+Create a repository
+Click the ‘+’ near the top right, next to the profile page
+Select ‘New Repository’ 
+Give repo name 
+Optional, add .gitignore
+
+
+Connect Repository to PHPStorm
+Go into VCS > Checkout from Version Control > Git
+Paste in the repository url
+Test
+Hit ok / Clone
+
+Add Collaborators
+Enter the repository you wish to add a collaborator to.
+You should see a screen much like this one. Go to ‘Settings’ (in this image, it is under ‘watch’. 
+On the left hand side there’s a menu, go to collaborators
+Enter your password
+Add in as many collaborators as you have
+Get your collaborators to accept the request. 
+
+Branches in PHPStorm
+On the project, go into VCS > Git > Branches 
+On the menu that pops up, click the ‘+ New Branch’
+If you have a branch you wish to select, those will appear
+If it will not let you, it’s likely because you have changes that you haven’t saved, so make sure to save and push those to where they need to go, or go into VCS > Git > Stash Changes and it will save them to the side
+One person should be the one to send all changes to the master.
