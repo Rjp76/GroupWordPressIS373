@@ -94,48 +94,48 @@ Create github account
 
 Download GIT
 https://git-scm.com/downloads
-Run application 
-Accept license and continue 
-Destination location of program 
-Verify components and click next
-Adjusting your path environment 
-Select use git from git bash only or use git from windows command prompt
-Click next until install page. Install the program and wait for loading to finish 
-Completing the GIT setup wizard
-Choose for desktop shortcut and finish setup
+1. Run application 
+2. Accept license and continue 
+3. Destination location of program 
+4. Verify components and click next
+5. Adjusting your path environment 
+    5. Select use git from git bash only or use git from windows command prompt
+6. Click next until install page. Install the program and wait for loading to finish 
+7. Completing the GIT setup wizard
+    3. Choose for desktop shortcut and finish setup
 
 Attach Github to PhpStorm
-Go into File > Settings
-In the pop up, go to Version Control > GitHub
-Host should be github.com
-Login is github username
-Password is github password
-Test
+1. Go into File > Settings
+2. In the pop up, go to Version Control > GitHub
+    1. Host should be github.com
+    2. Login is github username
+    3. Password is github password
+2. Test
 
 Create a repository
-Click the ‘+’ near the top right, next to the profile page
-Select ‘New Repository’ 
-Give repo name 
-Optional, add .gitignore
+1. Click the ‘+’ near the top right, next to the profile page
+2. Select ‘New Repository’ 
+3. Give repository name 
+    4. Optional, add .gitignore
 
 
 Connect Repository to PHPStorm
-Go into VCS > Checkout from Version Control > Git
-Paste in the repository url
-Test
-Hit ok / Clone
+1. Go into VCS > Checkout from Version Control > Git
+2. Paste in the repository url
+3. Test
+4.  Hit ok / Clone
 
 Add Collaborators
-Enter the repository you wish to add a collaborator to.
-You should see a screen much like this one. Go to ‘Settings’ (in this image, it is under ‘watch’. 
-On the left hand side there’s a menu, go to collaborators
-Enter your password
-Add in as many collaborators as you have
-Get your collaborators to accept the request. 
+1. Enter the repository you wish to add a collaborator to.
+2. On the same line as 'code', 'issues', etc, there should be an option called 'Settings.' Click it.
+3. On the left hand side there’s a menu, go to collaborators
+4. Enter your password
+5. Add in as many collaborators as you have
+6. Get your collaborators to accept the request. 
 
 Branches in PHPStorm
-On the project, go into VCS > Git > Branches 
-On the menu that pops up, click the ‘+ New Branch’
-If you have a branch you wish to select, those will appear
-If it will not let you, it’s likely because you have changes that you haven’t saved, so make sure to save and push those to where they need to go, or go into VCS > Git > Stash Changes and it will save them to the side
-One person should be the one to send all changes to the master.
+1. On the project, go into VCS > Git > Branches 
+2. On the menu that pops up, click the ‘+ New Branch’
+3. If you have a branch you wish to select, those will appear
+    4. If it will not let you, it’s likely because you have changes that you haven’t saved, so make sure to save and push those to where they need to go, or go into VCS > Git > Stash Changes and it will save them to the side
+4. One person should be the one to send all changes to the master.
