@@ -104,28 +104,28 @@ https://git-scm.com/downloads
 7. Completing the GIT setup wizard
     3. Choose for desktop shortcut and finish setup
 
-Attach Github to PhpStorm
-1. Go into File > Settings
+**Attach Github to PhpStorm**
+1****. Go into File > Settings
 2. In the pop up, go to Version Control > GitHub
     1. Host should be github.com
     2. Login is github username
     3. Password is github password
 2. Test
 
-Create a repository
+**Create a repository**
 1. Click the ‘+’ near the top right, next to the profile page
 2. Select ‘New Repository’ 
 3. Give repository name 
     4. Optional, add .gitignore
+``
 
-
-Connect Repository to PHPStorm
+**Connect Repository to PHPStorm**
 1. Go into VCS > Checkout from Version Control > Git
 2. Paste in the repository url
 3. Test
 4.  Hit ok / Clone
 
-Add Collaborators
+**Add Collaborators**
 1. Enter the repository you wish to add a collaborator to.
 2. On the same line as 'code', 'issues', etc, there should be an option called 'Settings.' Click it.
 3. On the left hand side there’s a menu, go to collaborators
@@ -133,7 +133,7 @@ Add Collaborators
 5. Add in as many collaborators as you have
 6. Get your collaborators to accept the request. 
 
-Branches in PHPStorm
+**Branches in PHPStorm**
 1. On the project, go into VCS > Git > Branches 
 2. On the menu that pops up, click the ‘+ New Branch’
 3. If you have a branch you wish to select, those will appear
