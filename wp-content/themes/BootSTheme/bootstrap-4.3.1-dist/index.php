@@ -6,7 +6,8 @@
 get_stylesheet_uri();
 
 ?>
-
+<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
 
 <div class="panel panel-default panel-body">
     <div>
